@@ -1,0 +1,24 @@
+# http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+* text=auto
+
+# Code
+*.md text
+*.mustache text
+*.html text
+*.css text
+*.sass text
+*.scss text
+*.less text
+*.js text
+*.json text
+*.ts text
+*.csv text
+*.sql text
+*.svg text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
