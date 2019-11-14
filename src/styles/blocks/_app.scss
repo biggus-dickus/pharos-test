@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  height: 100vh;
+
+  &__sidebar,
+  &__content {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    height: inherit;
+    overflow: auto;
+  }
+
+  &__sidebar {
+    width: 260px;
+    padding-right: 25px;
+    padding-left: 35px;
+    flex-shrink: 0;
+  }
+}

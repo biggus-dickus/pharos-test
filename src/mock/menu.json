@@ -1,0 +1,39 @@
+[
+  {
+    "id": "id-vids",
+    "title": "Videos",
+    "iconId": "folder"
+  },
+  {
+    "id": "id-shows",
+    "title": "Shows",
+    "iconId": "camera",
+    "items": [
+      {
+        "id": "air-max",
+        "title": "Nike Air Max",
+        "isLive": false
+      },
+      {
+        "id": "react-running",
+        "title": "Nike React Running",
+        "isLive": false
+      },
+      {
+        "id": "nike-sport",
+        "title": "Nike Sport",
+        "isLive": true
+      }
+    ]
+  },
+  {
+    "id": "id-promo",
+    "title": "Promocodes",
+    "iconId": "gift"
+  },
+  {
+    "id": "id-campaigns",
+    "title": "Campaigns",
+    "iconId": ""
+  }
+]

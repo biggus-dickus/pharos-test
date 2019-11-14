@@ -1,0 +1,73 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: $theme-variant;
+  background-color: $theme-bg;
+
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+    color: $light-primary;
+    text-transform: uppercase;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-right: 15px;
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+
+  &__title {
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 25px;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      right: -25px;
+      left: -35px;
+      height: 1px;
+      background-color: #1b1338;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+  }
+
+  &__menu-title {
+    font-weight: 700;
+    font-size: inherit;
+    text-transform: uppercase;
+  }
+
+  &__footer {
+    margin-top: auto;
+  }
+
+  &__text {
+    font-size: 12px;
+    margin-top: .75em;
+    margin-bottom: .75em;
+  }
+
+  &__link {
+    font-weight: 700;
+    color: $light-primary;
+  }
+}
