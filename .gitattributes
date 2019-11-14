@@ -1,24 +1,28 @@
 # http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+* text eol=lf
+
 * text=auto
 
 # Code
-*.md text
-*.mustache text
 *.html text
 *.css text
+*.less text
 *.sass text
 *.scss text
-*.less text
 *.js text
 *.json text
-*.ts text
-*.csv text
-*.sql text
+*.md text
 *.svg text
+*.sh text
 
 # Graphics
+*.gif binary
+*.ico binary
 *.png binary
 *.jpg binary
 *.jpeg binary
-*.gif binary
-*.ico binary
+*.webp binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
