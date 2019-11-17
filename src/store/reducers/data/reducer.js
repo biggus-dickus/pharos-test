@@ -15,7 +15,7 @@ const initialState = {
     }
 };
 
-const setData = (state = {...initialState.menu}, action) => {
+const setData = (state = {...initialState[DataType.MENU]}, action) => {
     switch (action.type) {
         case ActionType.LOG_ERROR:
             return {
