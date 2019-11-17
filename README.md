@@ -1,3 +1,3 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-And nothing else matters.
+Feci quod potui, faciant meliora potentes.

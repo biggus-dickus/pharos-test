@@ -1,0 +1,23 @@
+.header-btn {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 25px;
+  height: 21px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+
+  &__icon {
+    width: inherit;
+    height: inherit;
+    fill: $theme-link;
+    pointer-events: none;
+  }
+
+  &:disabled {
+    .header-btn__icon {
+      fill: $text-muted;
+    }
+  }
+}

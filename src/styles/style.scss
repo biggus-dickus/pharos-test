@@ -1,8 +1,19 @@
 @import "~normalize.css/normalize";
 
 @import "base/variables";
+@import "base/mixins";
+@import "base/typography";
+@import "base/utilities";
 
 @import "partials/scaffolding";
 
 @import "blocks/app";
+@import "blocks/header-btn";
+@import "blocks/page-header";
+@import "blocks/page-main";
+@import "blocks/promo-table";
+@import "blocks/search";
 @import "blocks/sidebar";
+@import "blocks/sidebar-menu";
+@import "blocks/table";
+@import "blocks/user-section";

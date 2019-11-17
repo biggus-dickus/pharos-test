@@ -1,0 +1,38 @@
+// Absolute centering technique (transforms)
+// -------------------------------------------------------------------------
+@mixin abs-center($by-x-axis: 50%, $by-y-axis: 50%) {
+  position: absolute;
+  @if $by-x-axis and $by-y-axis {
+    left: $by-x-axis;
+    top: $by-y-axis;
+    transform: translate(-$by-x-axis, -$by-y-axis);
+  }
+  @else if $by-x-axis and $by-y-axis == false {
+    left: $by-x-axis;
+    transform: translateX(-$by-x-axis);
+  }
+  @else if $by-x-axis == false and $by-y-axis {
+    top: $by-y-axis;
+    transform: translateY(-$by-y-axis);
+  }
+}
+
+
+// Absolute centering technique (margin-auto)
+// -------------------------------------------------------------------------
+@mixin centering-absolute($plane: 'else') {
+  position: absolute;
+  @if $plane == 'horizontal' {
+    left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  } @else if $plane == 'vertical' {
+    top: 0; bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  } @else {
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: auto;
+  }
+}

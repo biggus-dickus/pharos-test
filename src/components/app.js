@@ -1,46 +1,33 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
-import logo from '../img/logo.png';
+import {getMenuData} from '../store/reducers/data/selectors';
+
 import {ReactComponent as SVGSprite} from '../img/svg/sprite-dest/sprite.svg';
 
-function App() {
+import Header from './header/header';
+import MainContent from './main/main-content';
+import SideBar from './sidebar/sidebar';
+
+
+const App = (props) => {
+    const {menuData} = props;
+
     return (
         <div className="app">
             <SVGSprite />
-
-            <aside className="app__sidebar sidebar">
-                <b className="sidebar__logo">
-                    <img src={logo} alt="logo" />
-                    Pulse.Studio
-                </b>
-                <h2 className="sidebar__title sidebar__menu-title">
-                    <svg className="sidebar__icon">
-                        <use xlinkHref="#icon-folder" />
-                    </svg>
-                    Dashboard
-                </h2>
-
-                <nav className="sidebar__navigation"></nav>
-
-                <div className="sidebar__footer">
-                    <p className="sidebar__text">
-                        {new Date().getFullYear()} &#0169; HeartBit. All rights reserved.
-                    </p>
-
-                    <p className="sidebar__text">
-                        <a className="sidebar__link" href="/terms">Terms of use</a> and <a className="sidebar__link" href="/privacy">Privacy Policy</a>.
-                    </p>
-                </div>
-            </aside>
+            <SideBar {...menuData} />
 
             <div className="app__content">
-                <header className="app__header page-header"></header>
-                <main className="app__main page-main">
-
-                </main>
+                <Header />
+                <MainContent sectionTitle="Promocodes" />
             </div>
         </div>
     );
-}
+};
 
-export default App;
+const mapStateToProps = (state) => ({
+    menuData: getMenuData(state)
+});
+
+export default connect(mapStateToProps)(App);

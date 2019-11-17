@@ -2,12 +2,14 @@
   {
     "id": "id-vids",
     "title": "Videos",
-    "iconId": "folder"
+    "iconId": "folder",
+    "pageUrl": "/videos"
   },
   {
     "id": "id-shows",
     "title": "Shows",
     "iconId": "camera",
+    "pageUrl": "/shows",
     "items": [
       {
         "id": "air-max",
@@ -29,11 +31,13 @@
   {
     "id": "id-promo",
     "title": "Promocodes",
-    "iconId": "gift"
+    "iconId": "gift",
+    "pageUrl": "/promo-codes"
   },
   {
     "id": "id-campaigns",
     "title": "Campaigns",
-    "iconId": ""
+    "iconId": "",
+    "pageUrl": "/campaigns"
   }
 ]

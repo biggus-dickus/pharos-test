@@ -1,5 +1,6 @@
 .app {
   display: flex;
+  min-width: 750px;
   height: 100vh;
 
   &__sidebar,
@@ -15,5 +16,10 @@
     padding-right: 25px;
     padding-left: 35px;
     flex-shrink: 0;
+  }
+
+  &__content {
+    flex-grow: 1;
+    max-width: 1015px;
   }
 }

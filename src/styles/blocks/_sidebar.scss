@@ -4,6 +4,7 @@
   font-size: 14px;
   color: $theme-variant;
   background-color: $theme-bg;
+  border-right: 1px solid $theme-color;
 
   &__logo {
     display: block;
@@ -30,6 +31,8 @@
     position: relative;
     padding-top: 45px;
     padding-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
 
     &::before,
     &::after {
@@ -61,7 +64,7 @@
   }
 
   &__text {
-    font-size: 12px;
+    font-size: 11px;
     margin-top: .75em;
     margin-bottom: .75em;
   }
@@ -69,5 +72,6 @@
   &__link {
     font-weight: 700;
     color: $light-primary;
+    text-decoration: underline;
   }
 }

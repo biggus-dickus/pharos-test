@@ -1,0 +1,81 @@
+.sidebar-menu {
+  &__outer-item {
+    position: relative;
+    margin-bottom: 30px;
+
+    &--has-nested {
+      padding-right: 20px;
+    }
+  }
+
+  &__inner-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    text-transform: none;
+
+    &::before {
+      @include centering-absolute("vertical");
+      content: "";
+      left: 5px;
+      width: 5px;
+      height: 5px;
+      background-color: currentColor;
+      border-radius: 50%;
+    }
+
+    &--active::before {
+      background-color: $theme-contrast;
+    }
+  }
+
+  &__outer-link:hover,
+  &__inner-link:hover {
+    color: $light-primary;
+  }
+
+  &__inner-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  // CSS drawn icon
+  &__outer-link--id-campaigns {
+    position: relative;
+    padding-left: 30px;
+
+    &::before {
+      @include centering-absolute("vertical");
+      content: "";
+      left: 0;
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+      padding: .25em;
+      border: 2px dashed currentColor;
+      border-radius: 50%;
+      background-color: currentColor;
+      background-clip: content-box;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #4f4d5a;
+    color: $light-primary;
+
+    &::before {
+      content: "+";
+    }
+  }
+}

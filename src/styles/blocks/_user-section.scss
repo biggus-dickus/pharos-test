@@ -1,0 +1,18 @@
+.user-section {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  &__avatar {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+}

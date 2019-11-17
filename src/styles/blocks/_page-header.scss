@@ -1,0 +1,12 @@
+.page-header {
+  display: flex;
+  padding-right: $content-padding-right;
+  padding-left: $content-padding-left;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $grey-primary;
+
+  &__search {
+    width: 85.3%;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.page-main {
+  padding-top: 30px;
+  padding-right: $content-padding-right;
+  padding-left: $content-padding-left;
+
+  &__title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $grey-primary;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

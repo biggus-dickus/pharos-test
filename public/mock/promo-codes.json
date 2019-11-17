@@ -6,7 +6,8 @@
     "isActive": true,
     "subscriptions": 480396,
     "desktopUrl": "",
-    "mobileUrl": "https://test.com"
+    "mobileUrl": "https://test.com",
+    "color": "#ffb3a3"
   },
   {
     "id": "hz43",
@@ -15,7 +16,8 @@
     "isActive": true,
     "subscriptions": 854456,
     "desktopUrl": "https://test.com",
-    "mobileUrl": ""
+    "mobileUrl": "",
+    "color": "#ffdcb4"
   },
   {
     "id": "hz44",
@@ -24,7 +26,8 @@
     "isActive": true,
     "subscriptions": 32987,
     "desktopUrl": "https://test.com",
-    "mobileUrl": "https://test.com"
+    "mobileUrl": "https://test.com",
+    "color": "#b4bbf2"
   },
   {
     "id": "hz45",
@@ -33,7 +36,8 @@
     "isActive": true,
     "subscriptions": 421823,
     "desktopUrl": "",
-    "mobileUrl": "https://test.com"
+    "mobileUrl": "https://test.com",
+    "color": "#c1fad1"
   },
   {
     "id": "hz46",
@@ -42,7 +46,8 @@
     "isActive": true,
     "subscriptions": 980360,
     "desktopUrl": "",
-    "mobileUrl": ""
+    "mobileUrl": "",
+    "color": "#c8acf9"
   },
   {
     "id": "hz47",
