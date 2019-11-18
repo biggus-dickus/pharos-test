@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hz42",
+    "name": "promo327longname",
+    "url": "https://pulse.io/68mz89pf7mg",
+    "isActive": true,
+    "subscriptions": 480396,
+    "desktopUrl": "",
+    "mobileUrl": "https://test.com",
+    "color": "#ffb3a3"
+  },
+  {
+    "id": "hz43",
+    "name": "promo1245",
+    "url": "https://pulse.io/68mz89pf7mg",
+    "isActive": true,
+    "subscriptions": 854456,
+    "desktopUrl": "https://test.com",
+    "mobileUrl": "",
+    "color": "#ffdcb4"
+  },
+  {
+    "id": "hz44",
+    "name": "promo_youtube",
+    "url": "https://pulse.io/234qwerjl56",
+    "isActive": true,
+    "subscriptions": 32987,
+    "desktopUrl": "https://test.com",
+    "mobileUrl": "https://test.com",
+    "color": "#b4bbf2"
+  },
+  {
+    "id": "hz45",
+    "name": "promo_insta",
+    "url": "https://pulse.io/00cvb123hjl",
+    "isActive": true,
+    "subscriptions": 421823,
+    "desktopUrl": "",
+    "mobileUrl": "https://test.com",
+    "color": "#c1fad1"
+  },
+  {
+    "id": "hz46",
+    "name": "promo_123",
+    "url": "https://pulse.io/1uuioas34711",
+    "isActive": true,
+    "subscriptions": 980360,
+    "desktopUrl": "",
+    "mobileUrl": "",
+    "color": "#c8acf9"
+  },
+  {
+    "id": "hz47",
+    "name": "promo_123",
+    "url": "https://pulse.io/1uuioas34711",
+    "isActive": false,
+    "subscriptions": 1340488,
+    "desktopUrl": "",
+    "mobileUrl": ""
+  },
+  {
+    "id": "hz48",
+    "name": "promo_123",
+    "url": "https://pulse.io/1uuioas34711",
+    "isActive": false,
+    "subscriptions": 1340488,
+    "desktopUrl": "",
+    "mobileUrl": ""
+  }
+]
