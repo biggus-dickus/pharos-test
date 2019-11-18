@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pharos-test/precache-manifest.5b52ecbab86c04df96fa898f37e0bbcd.js"
+  "/pharos-test/precache-manifest.bfdbd3573d81572b3d80370058ed0dc2.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pharos-test/static/css/main.142c1832.chunk.css",
-    "main.js": "/pharos-test/static/js/main.f9249acb.chunk.js",
-    "main.js.map": "/pharos-test/static/js/main.f9249acb.chunk.js.map",
+    "main.js": "/pharos-test/static/js/main.70413249.chunk.js",
+    "main.js.map": "/pharos-test/static/js/main.70413249.chunk.js.map",
     "runtime-main.js": "/pharos-test/static/js/runtime-main.7e20e193.js",
     "runtime-main.js.map": "/pharos-test/static/js/runtime-main.7e20e193.js.map",
     "static/js/2.a169a41e.chunk.js": "/pharos-test/static/js/2.a169a41e.chunk.js",
     "static/js/2.a169a41e.chunk.js.map": "/pharos-test/static/js/2.a169a41e.chunk.js.map",
     "index.html": "/pharos-test/index.html",
-    "precache-manifest.5b52ecbab86c04df96fa898f37e0bbcd.js": "/pharos-test/precache-manifest.5b52ecbab86c04df96fa898f37e0bbcd.js",
+    "precache-manifest.bfdbd3573d81572b3d80370058ed0dc2.js": "/pharos-test/precache-manifest.bfdbd3573d81572b3d80370058ed0dc2.js",
     "service-worker.js": "/pharos-test/service-worker.js",
     "static/css/main.142c1832.chunk.css.map": "/pharos-test/static/css/main.142c1832.chunk.css.map",
     "static/media/sprite.56303b37.svg": "/pharos-test/static/media/sprite.56303b37.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7e20e193.js",
     "static/js/2.a169a41e.chunk.js",
     "static/css/main.142c1832.chunk.css",
-    "static/js/main.f9249acb.chunk.js"
+    "static/js/main.70413249.chunk.js"
   ]
 }
