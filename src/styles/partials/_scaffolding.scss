@@ -47,10 +47,10 @@ input:focus::placeholder {
   opacity: .5;
 }
 
-button:not(:disabled):active {
-  transform: translateY(1px);
-}
-
 button:disabled {
   cursor: not-allowed;
+}
+
+button:not(:disabled):active {
+  transform: translateY(1px);
 }
