@@ -30,5 +30,5 @@ export const fetchData = (url, dataType) => (dispatch) => {
         .then((data) => dispatch(receiveData(dataType, data)));
 };
 
-export const fetchMenu = () => fetchData('/mock/menu.json', DataType.MENU);
-export const fetchPromoCodes = () => fetchData('/mock/promo-codes.json', DataType.PROMO_CODES);
+export const fetchMenu = () => fetchData('mock/menu.json', DataType.MENU);
+export const fetchPromoCodes = () => fetchData('mock/promo-codes.json', DataType.PROMO_CODES);
