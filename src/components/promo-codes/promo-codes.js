@@ -13,8 +13,26 @@ class PromoCodesSection extends React.PureComponent {
         return null;
     }
 
-    handleCopy () {
+    handleCopy (val) {
+        const el = document.createElement('textarea');
+        el.value = val;
+        el.readOnly = true;
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
 
+        const selected = document.getSelection().rangeCount > 0 ?
+            document.getSelection().getRangeAt(0) : false;
+
+        el.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(el);
+
+        if (selected) {
+            document.getSelection().removeAllRanges();
+            document.getSelection().addRange(selected);
+        }
     }
 
     componentDidMount() {

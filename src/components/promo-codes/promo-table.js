@@ -4,12 +4,24 @@ import PropTypes from 'prop-types';
 
 const PromoTable = (props) => {
     const {items, isActive, onCopy} = props;
+    const tableRef = React.createRef();
 
     const modifier = isActive ? 'promo-table__table--active' : 'promo-table__table--inactive';
 
+    const copyHandler = (str, e) => {
+        onCopy(str);
+        const buttons = tableRef.current.querySelectorAll(`.${e.target.className}`);
+
+        for (const btn of buttons) {
+            btn.textContent = 'Copy';
+        }
+
+        e.target.textContent = 'Copied';
+    };
+
     return (
         <div className="table-responsive">
-            <table className={`table promo-table__table ${modifier}`}>
+            <table className={`table promo-table__table ${modifier}`} ref={tableRef}>
                 <tbody>
                     {items.map((item) => (
                         <tr key={item.id}>
@@ -29,7 +41,11 @@ const PromoTable = (props) => {
 
                             {isActive && (
                                 <td className="promo-table__td promo-table__td--copy">
-                                    <button type="button" className="promo-table__copy" onClick={onCopy}>Copy</button>
+                                    <button type="button"
+                                        className="promo-table__copy"
+                                        onClick={copyHandler.bind(null, item.url)}>
+                                        Copy
+                                    </button>
                                 </td>
                             )}
 
