@@ -27,7 +27,7 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "postcss-cli": "^10.0.0",
-    "stylelint": "^14.13.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-recommended-scss": "^4.0.0",
     "stylelint-scss": "^3.12.1"
   },
